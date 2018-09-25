@@ -14,7 +14,7 @@
 
 上面提到过，DNS采用分级的授权管理机制，其结构如下所示：
 
-![image](https://github.com/chenhuyang/konwledge_point/blob/master/Dns_structure.png)
+![image](https://github.com/chenhuyang/konwledge_point/blob/master/Dns_picture/Dns_structure.png)
 
 根域与一级域由IANA直接管理。
 ### 2、FQDN
@@ -53,7 +53,7 @@
 上找到了解析记录，并返回给了客户端。
 ### 2、DNS采用两种查询机制：递归和迭代。
 
-![image](https://github.com/chenhuyang/konwledge_point/blob/master/Dns_lookup.png)
+![image](https://github.com/chenhuyang/konwledge_point/blob/master/Dns_picture/Dns_lookup.png)
 
 * 在上面的查询过程中，客户端只发起了一次请求，并得到了最后的结果，这种查询方式被称为递归。
 * 而DNS服务器在查询过程中不停的发起请求，直到找到想要的结果，这种查询方式被称为迭代。
